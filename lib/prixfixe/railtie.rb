@@ -5,7 +5,7 @@ module MyPlugin
     railtie_name :prixfixe
 
     rake_tasks do
-      load '../../tasks/prixfixe.rake'
+      load File.join(File.dirname(__FILE__), '../../tasks/prixfixe.rake')
     end
   end
 end
