@@ -1,3 +1,3 @@
 module Prixfixe
-  require 'prixfixe/railtie' if defined?(Rails)
+  require 'lib/prixfixe/railtie' if defined?(Rails)
 end
